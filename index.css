@@ -1,0 +1,474 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header {
+    background-color: #058a67;
+    color: white;
+    padding: 15px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav ul li {
+    margin-left: 55px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 20px;
+}
+
+.nav ul li a:hover {
+    color: #ff6600;
+}
+
+.hero {
+    background: url('img/hero.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.hero .container {
+    max-width: 800px;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero .btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #e65c00;
+}
+
+.properties, .about, .contact {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    top: 295px;
+    position: relative;
+}
+
+.properties .container, .about .container, .contact .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.properties h2, .about h2, .contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.property-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.property {
+    margin: 10px;
+    padding: 0px;
+    width: 30%;
+    transition: transform 0.3s;
+    height: 655px;
+}
+.contenedor_fondo{
+    width: 360px;
+    height: 600px;
+}
+.fondo:hover{
+    transform: scale(1.05);
+    transition: transform 1s;
+    overflow: hidden;
+}
+.l_terrenos:hover{
+    background: #508f8f;
+    z-index: 1;
+}
+.l_terrenos1{
+    width: 118px;
+    display: flex;
+    position: absolute;
+    top: 670px;
+    right: 685px;
+    background: #508f8f;
+    height: 15px;
+    border-radius: 50px;
+    padding: 15px 0px 15px 20px;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    color: white;
+    font-family: Stencil;
+}
+.l_terrenos2{
+    width: 118px;
+    display: flex;
+    position: absolute;
+    top: 670px;
+    right: 285px;
+    background: #508f8f;
+    height: 15px;
+    border-radius: 50px;
+    padding: 15px 0px 15px 20px;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    color: white;
+    font-family: Stencil;
+}
+.estado{
+    width: 150px;
+    height: 25px;
+    background: #F9F7F8;
+    position: absolute;
+    margin: 35px 0px 0px 210px;
+    border-radius: 15px 0px 0px 15px;
+    z-index: 1;
+    padding: 8px 0px 0px 1px;
+}
+.estado:hover{
+    transform: translateX(5px);
+    transition: transform 1s;
+}
+.property img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+    height: 600px;
+}
+.imagen_principal{
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    top: 114px;
+    background-size: 100%;
+    object-fit: contain;
+    height: 685px;
+    width: 1519px;
+}
+.property h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    top: 555px;
+    position: absolute;
+    padding: 1px 1px 1px 80px;
+    color: white;
+}
+
+.property p {
+    font-size: 18px;
+    color: white;
+    top: 595px;
+    position: absolute;
+    padding: 1px 1px 1px 190px;
+}
+
+.about p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.contact-info div {
+    flex: 1;
+    margin: 10px;
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin: 0;
+}
+.carousel {
+    overflow: hidden;
+    max-height: 110%;
+    display: flex;
+    width: 1519px;
+    height: 800px;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    height: 800px;
+    width: 1545px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 18px;
+    border-radius: 50%;
+}
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.deta{
+    padding: 12px;
+    height: 155px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cierre{
+    position: absolute;
+    width: 1520px;
+    height: 460px;
+    background: #ededed;
+    top: 2300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.palabra1{
+    font-size: 14px;
+    color: black;
+}
+.palabra2{
+    font-size: 16px;
+    color: black;
+}
+.palabra3{
+    font-size: 14px;
+    color: gray;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(0 0 0 / 80%);
+}
+
+/* Contenido del modal */
+.modal-content {
+    margin: 4% auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 1200px;
+    height: 550px;
+}
+
+/* El botón de cierre (x) */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 1;
+    position: relative;
+}
+
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fondo_modal{
+    display: contents;
+}
+.content{
+    top: -660px;
+    position: relative;
+}
+.item1{
+    display: block;
+    max-width: 1070px;
+    height: auto;
+    height: 480px;
+}
+.mas_opciones_terrenos{
+    top: 114px;
+    position: absolute;
+}
+.l_terrenos{
+    width: 118px;
+    display: flex;
+    position: absolute;
+    top: 670px;
+    right: 1088px;
+    background: #508f8f;
+    height: 15px;
+    border-radius: 50px;
+    padding: 15px 0px 15px 20px;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    color: white;
+    font-family: Stencil;
+}
+.r1{
+    height: 150px;
+    background: #099309;
+    color: white;
+    font-size: 50px;
+    align-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 0px 31px 0px 200px;
+}
+.r2{
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+}
+.r3{
+    height: 150px;
+    background: #099309;
+    color: white;
+    font-size: 50px;
+    align-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 0px 31px 0px 200px;
+}
+.ayllu{
+    width: 125px;
+}
+.alpina{
+    width: 450px;
+    margin: 80px 210px; 
+}
+.alpina:hover{
+  transform: scale(1.1);
+  transition: transform 1.5s;
+  border: 3px solid green;
+  box-shadow: 10px 5px 5px green;
+  ;
+}
+.info_alpina{
+    margin: 100px 100px 100px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.alpina_titulo{
+    color: #058a67;
+    font-size: 40px;
+    margin: 25px 10px 0px 10px;
+}
+.alpina_titulo1{
+    font-size: 40px;
+    margin: 5px 10px 0px 10px;
+}
+.log{
+    position: absolute;
+    margin: 35px 0px 0px 15px;
+}
+.plujins{
+    margin: 45px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.alpina_link{
+    width: 145px;
+    height: 50px;
+    background: #8ed81c;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    border-radius: 15px;
+}
+.alpina_link:hover{
+    background: rgb(108, 157, 33);
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo_restaurant.css">
+    <title>Real Estate Web</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img  src="img\imj.png" alt="logo"></a>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="terrenos.html">Terrenos</a></li>
+                    <li><a href="#">Restaurant</a></li>
+                    <li><a href="#">Proyectos Sociales</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <section class="mas_opciones_terrenos">
+
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <a class="link_otros_terrenos" href="terrenos.html">
+                        <div class="informacion_carrusel"><img src="img/imagen1.jpg" alt="Imagen 1">
+                        </div></a>
+                        
+                        <a class="link_otros_terrenos" href="terreno_3.html">
+                        <div class="informacion_carrusel"><img src="img/imagen2.jpg" alt="Imagen 2">
+                            
+                    </div></a>
+          
+                    <a class="link_otros_terrenos" href="terreno_3.html">
+                    <div class="informacion_carrusel"><img src="img/imagen3.jpg" alt="Imagen 3">
+                        
+                </div> </a>
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                </div>
+            
+                <script src="script1.js"></script>
+                    
+            </section>
+            <div class="container">
+                <h1>Encuentra tu Propiedad Ideal</h1>
+                <p>Los mejores terrenos, lotes y viviendas a tu alcance.</p>
+                <a href="terrenos.html" class="btn">Explorar</a>
+            </div>
+        </section>
+        <section class="opciones_comidas">
+                <div class="opcion_1">
+                    <img class="plato1" src="img\Lomo-saltado-gaston-acurio-2-listo-.jpg" alt="">
+                    <div class="detalles">
+                        <img class="logo" src="img\imj.png" alt="">
+                        <div class="categoria">Plato Principal</div>
+                        <div class="plato">Lomo Saltado</div>
+                        <div class="separador"></div>
+                        <div class="precio">S/.30</div>
+                        <a class="ver_mas" href="lomo.html">Ver Mas</a>
+                    </div>
+                </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <h2>Contáctanos</h2>
+                <p>Para más información sobre nuestros terrenos, lotes y viviendas, contáctanos a través de los siguientes medios:</p>
+                <div class="contact-info">
+                    <div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@example.com">info@example.com</a></p>
+                    </div>
+                    <div>
+                        <h3>Facebook</h3>
+                        <p><a href="https://facebook.com">facebook.com/example</a></p>
+                    </div>
+                    <div>
+                        <h3>WhatsApp</h3>
+                        <p><a href="https://wa.me/123456789">+51 977 391 849</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Real Estate Web. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
