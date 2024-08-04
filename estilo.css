@@ -325,7 +325,44 @@ a{
     cursor: pointer;
     text-decoration: none;
 }
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    top: 2675px;
+}
 
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}
+.footer1 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    top: 1170px;
+}
+
+.footer1 .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer1 p {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}
 .calificacion{
     width: 200px;
     height: 45px;

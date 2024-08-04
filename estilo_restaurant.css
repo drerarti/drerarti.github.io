@@ -87,7 +87,6 @@ body {
 .properties, .about, .contact {
     padding: 50px 0;
     background-color: #f8f8f8;
-    top: 295px;
     position: relative;
 }
 
@@ -475,6 +474,7 @@ body {
 .opciones_comidas{
     height: 1200px;
     position: relative;
+    margin: 0px 100px;
 }
 .opcion_1{
     width: 22rem;
@@ -484,10 +484,156 @@ body {
     top: 450px;
     position: absolute;
     margin: 0px 110px;
+    box-shadow: 0 0 30px -5px #0000002e;
+    border-radius: .6rem;
+    overflow: hidden;
+}
+.opcion_2{
+    width: 22rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+    top: 450px;
+    position: absolute;
+    margin: 0px 110px;
+    box-shadow: 0 0 30px -5px #0000002e;
+    border-radius: .6rem;
+    overflow: hidden;
+    margin: 0px 510px;
+}
+.opcion_3{
+    width: 22rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+    top: 450px;
+    position: absolute;
+    margin: 0px 110px;
+    box-shadow: 0 0 30px -5px #0000002e;
+    border-radius: .6rem;
+    overflow: hidden;
+    margin: 0px 910px;
+}
+.opcion_4{
+    width: 22rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+    top: 450px;
+    position: absolute;
+    margin: 0px 110px;
+    box-shadow: 0 0 30px -5px #0000002e;
+    border-radius: .6rem;
+    overflow: hidden;
+    margin: 370px 110px 0px;
 }
 .plato1{
     width: 50%;
 }
 .logo{
     width: 50%;
+}
+.detalles{
+    margin: 5px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.logo{
+    width: 50%;
+    margin: 0px 38px;
+}
+.categoria{
+    position: absolute;
+    width: 115px;
+    background: #dbdbdc;
+    height: 10px;
+    padding: 8px 5px 15px 28px;
+    border-radius: 35px 0px 0px 35px;
+    align-content: center;
+    margin: 90px 0px 5px 18px;
+}
+.plato{
+    margin: 60px 0px 16px 5px;;
+}
+.separador{
+    width: 140px;
+    height: 3px;
+    background: grey;
+    border-radius: 40px;
+    margin: 200px 10px;
+    z-index: 1;
+    position: absolute;
+}
+.precio{
+    margin: 45px 65px 5px 60px;
+}
+.ver_mas{
+    width: 105px;
+    height: 15px;
+    padding: 10px 0px 15px 50px;
+    border-radius: 50px;
+    border: 1px solid silver;
+    color: #9e9e9e;
+    text-decoration: none;
+    margin: 4px 0px;
+}
+.ver_mas:hover{
+    background: #f5311f;
+    color: white;
+    transition: 1s;
+}
+.tipo{
+    position: absolute;
+    margin: 170px 15px 50px;
+    font-size: 12px;
+}
+.blog{
+    width: 100%;
+    height: 410px;
+    background: #e3e3e3;
+    padding: 165px 165px 0px;
+    display: flex;
+    gap: 45px;
+}
+.titulo_menu{
+    margin: 100px 100px 100px 380px;
+    top: 290px;
+    position: relative;
+    font-size: 50px;
+}
+.titulo_blog
+ {
+        position: absolute;
+        margin: -120px 40px;
+        font-size: 45px;
+}
+.evento{
+    width: 23rem;
+    height: 22rem;
+    background: white;
+}
+.link_eventos{
+    color: #4d4d4d;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 9px 42px;
+    position: relative;
+    top: 28px;
+}
+.barra{
+    width: 100%;
+    background: red;
+    border-radius: 40px;
+    height: 1px;
+    margin: 55px 0px 0px;
+}
+.fecha{
+    margin: 18px 30px 0px;
+    font-size: 15px;
+}
+.ev1{
+    width: 368px;
+    margin: 6px 0px;
+    height: 225px;
 }
