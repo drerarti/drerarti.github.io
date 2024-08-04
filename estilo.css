@@ -265,18 +265,18 @@ ul{
     width: 870px;
     height: 50px;
     border-top: 3px solid #e05d0c;
-    top: 5px;
+    top: -15px;
     position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
     gap: 15px;
-    padding: 5px;
+    padding: 20px 5px 0px 10px;
 }
 .boton_telefono{
-    width: 50px;
-    height: 45px;
+    width: 40px;
+    height: 38px;
     border-radius: 10px;
 }
 .boton_telefono:hover {
@@ -297,8 +297,8 @@ h3{
     color: #000;
 }
 .boton_wasap{
-    width: 150px;
-    height: 45px;
+    width: 140px;
+    height: 35px;
     background-color: rgb(37, 211, 102);
     border-radius: 10px;
     text-align: center;
@@ -306,8 +306,8 @@ h3{
     font-size: 20px;
 }
 .boton_facebook{
-    width: 150px;
-    height: 45px;
+    width: 140px;
+    height: 35px;
     background-color: hsl(211, 81%, 48%);
     border-radius: 10px;
     text-align: center;
@@ -325,6 +325,7 @@ a{
     cursor: pointer;
     text-decoration: none;
 }
+
 .calificacion{
     width: 200px;
     height: 45px;
@@ -532,7 +533,7 @@ a{
     right: -105px;
 }
 .tele{
-    width: 45px;
+    width: 35px;
     padding: 0px;
     right: -1px;
     position: relative;
@@ -553,6 +554,7 @@ a{
     top: 20px;
     font-size: 18px;
 }
+
 .relleno_descripcion{
     width: 415px;
     height: 115px;
