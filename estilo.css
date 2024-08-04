@@ -13,6 +13,10 @@
     width: 75px;
     height: 71px;
 }
+.vista_de_index{
+    width: 1536px;
+    position: absolute;
+}
 .menu{
     width: 1536px;
     height: 85px;
